@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 90%;
+   min-height: auto;
+   background-position: 50%; height: auto;
+    /* background-color: rgb(39, 127, 118); */
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    padding: 10px;
+}
+.logo-nav{
+    width: 100%;
+    height: 5rem;
+    margin:0px auto;
+    /* border: 1px silod black; */
+    background-color:#eeefea;
+}
+.logo{
+    width: 40%;
+    height: 3rem;
+    /* border: 1px silod black; */
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+
+
+}
+.nav{
+    width: 45%;
+    height: 3rem;
+    padding: 10px;  
+    /* border: 1px silod black; */
+    float: left;
+}
+.nav li{
+    list-style-type: none;
+    
+}
+.nav li a{
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+.nav li a:hover{
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+}
+.main-baner{
+    
+    width: 100%;
+   height: 28rem; 
+    margin: 0px auto;
+
+   /* border: 2px solid black; */
+   background-color: #eeefea;
+    background-image: url(/images/image-background.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.sub-ban{
+    width: 37%;
+    height: 15rem;
+    /* border: 2px solid black; */
+    float: right;
+    margin: 6.5rem 10rem 0 0;
+}
+.sub-ban h4{
+    margin:10px;
+}
+.sub-ban p{
+    margin: 10px;
+    line-height: 25px;
+}
+button{
+    border: 1.5px solid black;
+    padding: 6px 12px;
+    margin: 20px;
+    border-radius: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-ban a{
+    color :black;
+    margin: 5px;
+}
+button:hover{
+    background-color: darkgreen;
+    color: cornsilk;
+    padding: 8px 18px;
+}
+.sub-ban a:hover{
+    color:antiquewhite;
+    background-color: darkolivegreen;
+    padding: 5px;
+}
+.product{
+    width: 100%;
+    height: 60rem;
+    background-color: #fff;
+    /* border: 1.5px solid black; */
+}
+.product .product-header{
+    width: 33%;
+    height: 5em;
+    margin: 5px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+   margin-left: 30%;
+
+}
+.product .product-header h2{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.product .product-header p{
+    line-height: 20px;
+}
+.product-items{
+    width: 90%;
+    height: 20em;
+    margin: 20px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    display:inline-flex;
+    justify-content: space-evenly;
+}
+.product-items .items{
+    width: 23%;
+    height: 17rem;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+    /* background-color: cadetblue; */
+    
+}
+.items img{
+    width: 100%;
+    height: 13rem;
+}
+.items p{
+    font-size:small;
+}
+.product .prod-ban{
+    width: 90%;
+    height: 28em;
+    margin: 5px auto;
+    padding: 5px;
+    /* border: 1px solid black; */
+    /* background-color: darkolivegreen; */
+}
+.prod-ban .ban-1{
+    width: 45%;
+    height: 26rem;
+    margin: 10px 20px;
+    /* border: 1px solid black; */
+    float: left;
+}
+#ban1{
+    background-image: url(/images/image5.jpeg);
+    background-size: cover;
+}
+.ban-1 #ban-1{
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 55%;
+    color: rgb(22, 22, 20);
+   text-align: right;
+}
+.prod-ban .ban-1 img{
+    width:100% ;
+    height: 100%;
+}
+.prod-ban .ban-1 .imge1{
+    width: 95%;
+    height: 12.5rem;
+    margin: 5px;
+    /* border: 1px solid black; */
+    background-color: rgb(115, 220, 206, 3);
+    background-image: url(/images/image6.jpeg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+
+}
+#imeg1{  
+    width: 50%;
+    margin: 20px;
+}
+#imeg2{
+    width: 50%;
+    margin: 30px;
+    margin-left: 50%;
+}
+
+
+.prod-ban .ban-1 .imge1 img{
+    width:65%;
+    height: 100%;
+    margin-left: 30%;
+}
+.prod-ban .ban-1 .imge2{
+    width: 95%;
+    height: 12.5rem;
+    margin: 5px;
+    /* border: 1px solid black; */
+    background-color: rgb(249, 250, 255, 2);
+    background-image: url(/images/image7.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain    ;
+
+}
+.prod-ban .ban-1 .imge2 img{
+    width:65%;
+    height: 100%;
+    
+}
+.contact{
+    width: 100%;
+    height: 20rem;
+    margin: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.contact h2{
+    margin-top: 3rem;
+
+}
+.contact p{
+    width: 25rem;
+    margin: 20px;
+    margin-left: 20rem;
+    padding: 10px;
+    text-align: center;
+}
+.contact input{
+    margin: 10px 0 10px 10px;
+    padding: 5px  40px;
+
+}
+.contact button{
+    margin-left: -10px;
+}
+/* .icons{
+    width: 90px;
+    height: 40px;display: inline-block;
+    justify-content: space-between;
+
+} */
